@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(33, 158, 200);
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+}
+header{
+    background-color: beige;
+    padding: 10px; 
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    margin: 10px 500px;
+    box-shadow: 0 0 20px red;
+    animation: rgbShadow 5s linear infinite;
+    text-align: center;
+    width: 600px;
+}
+nav{
+    background-color: bisque;
+    text-align: var(10px);
+    text-shadow: 100cap;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 500px;
+    box-shadow: 0 0 20px red;
+    animation: rgbShadow 5s linear infinite;
+    width: 600px;
+}
+#fondointroduccion{
+    background-color: beige;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 525px 0px 525px; 
+}
+img{
+    padding: 100px;
+    width: 100px;
+}
+#imagenes{
+    background-color: beige;
+    padding: 10px; 
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    margin: 15px 500px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(183, 122, 17);
+    
+}
+
+#Introduccion{
+    text-align: left;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    text-align: justify;
+}
+
+main{
+    background-color:beige;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    padding: 5px 35px 15px 35px;
+    margin: 15px 500px;
+    text-align: justify;
+}
+#horario{
+    background-color:beige;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 450px;
+}
+td{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-size: medium;
+}
+@keyframes rgbShadow {
+    0% {
+      box-shadow: 0 0 20px 5px red;
+    }
+    25% {
+      box-shadow: 0 0 20px 5px blue;
+    }
+    50% {
+      box-shadow: 0 0 20px 5px lime;
+    }
+    75% {
+      box-shadow: 0 0 20px 5px magenta;
+    }
+    100% {
+      box-shadow: 0 0 20px 5px red;
+    }
+}

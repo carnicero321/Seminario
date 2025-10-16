@@ -4,12 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre_mi</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <center>
-    <h1>Hoja de vida</h1>
-    <h2>Quien soy</h2>
-    <p>Es una persona que estudia ingeniería, 
+    
+        <header>
+            <h1>Hoja de vida</h1>
+            <h2>Selias</h2>
+        </header>
+
+        <nav>
+            <a id="navinicio" href="#inicio">inicio</a>
+            <a id="navhorario" href="#horario">horario</a>
+        </nav>
+<div id="fondointroduccion">
+    <h2 id="Introduccion">Introduccion</h2>
+    <p id="inicio">Es una persona que estudia ingeniería, 
         aunque explicarlo mucho no le interesa. 
         Pasa la mayoría del tiempo entre apuntes que no siempre 
         entiende del todo y proyectos que siempre parecen para ayer. 
@@ -18,36 +30,73 @@
         Se mantiene con café, panes mal armados y alguna playlist que ya ni escucha. 
         No tiene muy claro cómo llegó ahí, pero tampoco piensa salirse.
     </p>
-
-    <h3>Nombre:</h3> 
-    <p>Sebastian Elias Torres Camargo</p>
-
+</div>
+    <div id="imagenes">
         <div>
-         <img src="sources\file.jpg" alt="Foto_IRL" width="250px">
+         <img id="Foto_IRL" src="sources\file.jpg" alt="Foto_IRL">
         </div>
-        <a href="https://www.instagram.com/printsebas?igsh=NTMzbXNzN2Qwa3Vk"><img src="sources\logotipo-instagram_1199-122.jpg" alt="instagram" width="100px"></a>
+        <a href="https://www.instagram.com/printsebas?igsh=NTMzbXNzN2Qwa3Vk" target="_blank"><img src="sources\logotipo-instagram_1199-122.jpg" alt="instagram" width="100px"></a>
         
-        <a href="https://www.chess.com/member/carnicero321"></a><img src="sources\descarga.jpg" alt="chess" width="100px">
+        <a href="https://www.chess.com/member/carnicero321" target="_blank"><img src="sources\descarga.jpg" alt="chess" width="100px"></a>
+    </div>
     
-    </center>
-    <h2> Pasatiempos</h2>
 
-    <ul>
-        <li>Leer</li>
-        <li>Videojuegos</li>
-        <li>Hacer poemas</li>
-    </ul>
+    <main>
+        <h2> Pasatiempos</h2>
 
-    <h2>Tareas pendientes</h2>
+        <ul>
+            <li>Leer</li>
+            <li>Videojuegos</li>
+            <li>Hacer poemas</li>
+        </ul>
 
-    <ol type="i">
-        <li>Terminar el seminario</li>
-        <li>ser millonario</li>
-        <li>conseguir pareja</li>
-    </ol>
+        <h2>Tareas pendientes</h2>
 
-    <center>
+        <ol type="i">
+            <li>Terminar el seminario</li>
+            <li>ser millonario</li>
+            <li>conseguir pareja</li>
+        </ol>
 
+        <h2>Opinion sobre el silksong</h2>
+        <p>Es un juego digno de su antesesor, 
+            aunque aun no siento que sobrepase en gran manera a hollow knight mayormente por su aun falta de dlc y parches con cositas,
+            (o porque lo jugue hace mucho y mis recuerdos se ven sesgados por lo que se ahora de silksong)
+            viva silksong edilo y guarana, en fin.
+        </p>
+
+        <h2>Opinion sobre dragon ball</h2>
+        <p>Dragon Ball es la historia educativa de cómo nunca ir al gimnasio es una mala idea, porque si no entrenás desde los 4 años con un anciano en una montaña, jamás vas a poder lanzar esferas de energía ni salvar el universo… 47 veces.
+
+            Es una serie profundamente filosófica donde los personajes enfrentan dilemas existenciales como:
+            
+            "¿Debería cuidar a mi hijo o volver a entrenar con un señor azul en el más allá?"
+            
+            "¿Voy a morir otra vez o simplemente quedar inconsciente durante tres capítulos?"
+            
+            Y no olvidemos la evolución científica de la medicina: te matan, te reviven con una semilla. Te explotan el planeta, lo desean de vuelta. ¿Consecuencias? Eso es para otras franquicias.
+            
+            Gokú, nuestro héroe, es el padre del año… si el premio fuera por abandonarlo todo por una buena pelea.
+            Y Vegeta, el príncipe de los 3 saiyajins que quedan, vive eternamente frustrado porque ser el mejor es menos importante que ser "el protagonista".
+            
+            Ah, y si creías que la historia se terminó, sorpresa: ahora hay transformaciones con colores más chillones que una caja de resaltadores y enemigos con nombres de condimentos (sí, te hablo a vos, Freezer).
+        </p>
+
+        <h2>Opinion sobre fullmetal alchemist</h2>
+        <p>Fullmetal Alchemist: dos hermanos hacen alquimia para revivir a su mamá… y terminan inventando el peor tutorial de YouTube de la historia.
+
+            Edward pierde un brazo y una pierna, Alphonse pierde el cuerpo entero y se vuelve una armadura parlante con más ternura que sentido del tacto.
+            
+            La serie tiene de todo: ciencia, magia, traumas, villanos con nombres de pecados y un ejército lleno de gente que claramente necesita terapia.
+            
+            Y sí, llorás con Hughes, odiás a Shou Tucker y aprendés que jugar a ser Dios nunca termina bien.
+            Pero al final, entre explosiones, filosofía y autodescubrimiento, te deja una lección:
+            
+            “¡No transmutás a tu mamá, capo!”
+        </p>
+    </main>
+
+   <div id="horario">
     <h2>Horario</h2>
 
     <table border="3">
@@ -98,9 +147,10 @@
         </tbody>
 
     </table>
+     </div>
 
-</center>
-    
-    
+     <footer>
+        <small>Fritos Goku Sempai: El sabor que desata tu energía. ¡Disfruta del poder del snack! © 2025 Fritos Goku Sempai. Todos los derechos reservados.</small>
+     </footer>
 </body>
 </html>
