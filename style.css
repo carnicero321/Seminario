@@ -68,11 +68,21 @@ main{
     box-shadow: 0 0 10px;
     border-radius: 10px;
     padding: 15px;
-    margin: 15px 450px;
+    margin: 15px 470px;
 }
 td{
     text-align: center;
 }
+.form{
+    background-color: #009dffb0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+  }
 footer{
     text-align: center;
     font-size: medium;
@@ -94,3 +104,4 @@ footer{
       box-shadow: 0 0 20px 5px red;
     }
 }
+
